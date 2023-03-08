@@ -35,7 +35,7 @@ const Item = ({ title, to, icon, selected, setSelected } : any) => {
   );
 };
 
-const Sidebar1 = () => {
+const SidebarApp = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const [isCollapsed, setIsCollapsed] = useState(false);
@@ -225,4 +225,4 @@ const Sidebar1 = () => {
   );
 };
 
-export default Sidebar;
+export default SidebarApp;
